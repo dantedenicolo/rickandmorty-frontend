@@ -1,0 +1,25 @@
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+*,
+*:after,
+*::before {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	background: #111;
+	width: 100%;
+	min-height: 100vh;
+	padding: 10px;
+	color: white;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}

@@ -1,0 +1,36 @@
+.imgdetail {
+	width: 30%;
+	height: 30%;
+}
+
+.loader {
+	border: 9px solid rgb(99, 180, 99);
+	border-radius: 50%;
+	border-top: 9px solid #111;
+	width: 35px;
+	height: 35px;
+	display: inline-flex;
+	vertical-align: middle;
+	margin-left: 15px;
+	-webkit-animation: spin 2s linear infinite; /* Safari */
+	animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

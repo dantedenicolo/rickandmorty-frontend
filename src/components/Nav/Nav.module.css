@@ -1,0 +1,129 @@
+.nav {
+	margin: 0;
+	padding: 1em;
+}
+.nav li {
+	list-style: none;
+}
+.nav li .link {
+	padding: 1em;
+	font-weight: bold;
+	color: rgb(99, 180, 99);
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s, color 0.5s;
+}
+.nav li .link:hover {
+	color: #ffffff;
+}
+
+.nav li input {
+	padding: 5px;
+	font-weight: bold;
+	color: #111;
+	text-decoration: none;
+	background-color: rgb(99, 180, 99);
+	border: none;
+	border-color: #111;
+	border-radius: 5px;
+}
+.nav li input:focus {
+	outline: none;
+	text-decoration: none;
+	border: none;
+	border-color: #111;
+}
+input[type="search"]::-ms-clear {
+	display: none;
+	width: 0;
+	height: 0;
+}
+input[type="search"]::-ms-reveal {
+	display: none;
+	width: 0;
+	height: 0;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+	display: none;
+}
+
+.nav li button {
+	padding: 5px;
+	font-weight: bold;
+	color: #111;
+	cursor: pointer;
+	text-decoration: none;
+	background-color: rgb(99, 180, 99);
+	border: none;
+	border-radius: 5px;
+	margin: 0px 5px;
+}
+
+.nav li button:hover {
+	background-color: #80c487;
+	-webkit-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.nav {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	background: none;
+	color: white;
+}
+.nav .slamleft {
+	margin-right: auto;
+}
+
+@media all and (max-width: 879px) {
+	.nav {
+		padding: 0;
+	}
+	.nav li {
+		width: 100%;
+	}
+	.nav li .link {
+		display: block;
+		text-align: center;
+	}
+	.nav li button {
+		padding: 5px;
+		font-weight: bold;
+		color: #111;
+		cursor: pointer;
+		text-decoration: none;
+		background-color: rgb(99, 180, 99);
+		border: none;
+		border-radius: 5px;
+		margin: 5px 5px;
+	}
+
+	.nav {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.nav .slamleft {
+		margin-right: 0;
+	}
+}
+
+.logout {
+	background-color: rgb(177, 65, 65) !important;
+	color: white !important;
+}
+
+.logout:hover {
+	background-color: #612b2b !important;
+	color: white !important;
+}
