@@ -5,6 +5,7 @@ import useCharacterActions from './hooks/useCharacterActions'
 import useAuth from './hooks/useAuth'
 import useIsNavigationRoute from './hooks/useIsNavigationRoute'
 
+// app
 function App () {
   const { characters, onSearch, onClose } = useCharacterActions()
   const { login, logout } = useAuth()
